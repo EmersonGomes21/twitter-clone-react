@@ -27,7 +27,9 @@ const Tweet: React.FC = () => {
       </Retweeted>
 
       <Body>
-        <Avatar />
+        <Avatar >
+        <img src="https://raw.githubusercontent.com/EmersonGomes21/keepalive-challenge-uol/master/public/faviconUol.png"/>
+        </Avatar>
         <Content>
           <Header>
             <strong>Compasso UOL</strong>

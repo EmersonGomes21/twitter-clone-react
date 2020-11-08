@@ -35,14 +35,20 @@ margin-top: 3px;
 position: relative;
 `;
 export const Avatar = styled.div`
-width: 49px;
-height: 49px;
+width: 45px;
+height: 45px;
 border-radius: 50%;
 flex-shrink: 0;
-background:url('https://raw.githubusercontent.com/EmersonGomes21/keepalive-challenge-uol/master/public/faviconUol.png') 49px;
+background: var(--outline);
 position: absolute;
 top: 0;
 left: 0;
+
+>img{
+      width: 101%;
+      height: 101%;
+      border-radius: 50%;
+    }
 `;
 export const Content = styled.div`
 display: flex;
