@@ -55,7 +55,10 @@ const MenuBar: React.FC = () => {
 
       <BotSide>
 
-        <Avatar/>
+        <Avatar>
+
+        <img src="https://avatars0.githubusercontent.com/u/58889400?s=100&u=68963b922b8152428624ffd8ffd461193f72582d&v=4" alt="image profile"/>
+        </Avatar>
 
         <ProfileData>
           <strong>Emerson Gomes</strong>

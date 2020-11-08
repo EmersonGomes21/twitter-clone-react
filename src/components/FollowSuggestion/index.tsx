@@ -19,7 +19,7 @@ const FollowSuggestion: React.FC<Props> = ({ name, nickname }) => {
 
        
       </div>
-      <FollowButton outlined>Seguir</FollowButton>
+      <FollowButton outlined>+ Seguir</FollowButton>
     </Container>
   );
 };
