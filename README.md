@@ -1,46 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 align="center">
+ Twitter Clone
+</h1>
 
-In the project directory, you can run:
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img alt="twitter clone" src="https://github.com/EmersonGomes21/repositorios-readmes/blob/master/twitter-clone/twitter%20clone.gif" width="100%">
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :rocket: Tecnologias
 
-### `yarn test`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React e Hooks](https://reactjs.org)
+- [Create React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+- [Styled Components](https://styled-components.com/)
+- [JavaScript, Css e html.](https://www.w3schools.com/)
 
-### `yarn build`
+## 💻 Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este é um clone do Twitter, totalmente responsivo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Aprendizado
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Novos conceitos de css, alguns "hackers" de responsividade.
+### Novas formas de passar Props para componentes filhos.
+### Fundamentei o typeScript.
 
-### `yarn eject`
+## 🙋‍♂️ Deployed da aplicação no Vercel através [deste link](https://twitter-clone.emersongomes21.vercel.app/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ## 💻 :fire: Como usar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- ### **Pré-requisitos**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+  
 
-## Learn More
+1. Faça um clone :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+  $ git clone https://github.com/EmersonGomes21/twitter-clone-react.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Executando à Aplicação:
+
+```sh
+  # Instale as dependências
+  $ npm install ou yarn install
+
+  # Inicie a aplicação web
+  $ npm start ou yarn start
+```
+
+---
+
+Feito com ♥ by Emerson Gomes 
+#### Apresentado por Rocketseat
