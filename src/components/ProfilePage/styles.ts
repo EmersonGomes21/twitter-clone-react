@@ -1,5 +1,8 @@
 import styled, {css} from 'styled-components';
 import {LocationOn, Cake} from '../../styles/Icons';
+
+import Button from '../Button';
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -10,8 +13,6 @@ export const Container = styled.div`
    display: none; /* Chrome */
   }
 `;
-
-
     export const Banner  = styled.div`
     flex-shrink: 0;
     width: 100%;
@@ -38,6 +39,10 @@ export const Container = styled.div`
     >h1{
       font-weight: bold;
       font-size: 19px;
+      @media(max-width: 500px){
+        margin-top: 15px;
+      }
+     
     }
 
     > h2 {
@@ -48,12 +53,27 @@ export const Container = styled.div`
     > p {
       font-size: 15px;
       margin-top: 11px;
-    }
-
-    > a {
+      > a {
       text-decoration: none;
       color: var(--twitter);
     }
+    }
+
+    ul{
+      list-style: none; 
+      margin-top: 10px;
+      margin-bottom: 10px;
+      li{
+        font-size: 15px;
+        color: var(--gray);
+
+        svg{
+          fill: var(--gray);
+          margin-right: 5px;
+        }
+      }
+      
+         }
 
     `;
 
@@ -69,5 +89,35 @@ export const Container = styled.div`
     ${iconCss}
     `;
     export const Followage  = styled.div`
+ 
+ display: flex;
+ >span{
+   font-size: 15px;
+   color: var(--gray);
+  
+ & + span{
+   margin-left: 20px;
+ }
+
+ }
+
     `;
+
+
+export const EditButton = styled(Button)`
+
+position: absolute;
+top: 2vw;
+right: 7px;
+padding: 4px 16px;
+font-size: 13px;
+
+
+@media(min-width: 320px){
+  top: 10px;
+  padding: 10px 19px;
+  font-size: 15px;
+}
+`;
        
+

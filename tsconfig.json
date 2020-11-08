@@ -16,7 +16,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": false,
+    "isolatedModules": false /*antes de reiniciar o servidor mude para true e posteriormente para false */,
     "noEmit": true,
     "jsx": "react"
   },
