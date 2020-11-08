@@ -30,6 +30,12 @@ export const Container = styled.div`
     bottom: max(-60px, -10vh);
     left: 15px;
 
+    >img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
     `;
     export const ProfileData  = styled.div`
     padding: min(calc(10vw + 7px), 67px) 16px 0;

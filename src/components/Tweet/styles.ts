@@ -39,7 +39,7 @@ width: 49px;
 height: 49px;
 border-radius: 50%;
 flex-shrink: 0;
-background: var(--gray);
+background:url('https://raw.githubusercontent.com/EmersonGomes21/keepalive-challenge-uol/master/public/faviconUol.png') 49px;
 position: absolute;
 top: 0;
 left: 0;
